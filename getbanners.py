@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 #
 # Copyright (c) 2019, SafeBreach
 # All rights reserved.
@@ -50,42 +50,35 @@ __copyright__ = "Copyright 2019, SafeBreach"
 # Functions #
 #############
 
-
 # Based on https://stackoverflow.com/questions/295135/turn-a-string-into-a-valid-filename
 def slugify(input):
     return "".join(x for x in input if x.isalnum())
 
 
 def main(argc, argv):
-
-    if (argc < 2):
-        print "MISSING IP/HOSTNAME"
+    if argc < 2:
+        print("MISSING IP/HOSTNAME")
         return -1
 
     socket.setdefaulttimeout(5)
 
     target = socket.gethostbyname(argv[1])
 
-    fd = open(slugify(argv[1]) + '.txt', 'w+t')
+    with open(slugify(argv[1]) + '.txt', 'w+t') as fd:
+        for port_num in range(0, 1024):  # Cambiado a range()
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-    for port_num in xrange(0, 1024):
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            print("Trying %d/tcp ..." % (port_num))
 
-        print "Trying %d/tcp ..." % (port_num)
+            if s.connect_ex((target, port_num)) == 0:
+                try:
+                    data = s.recv(1024)
+                except socket.timeout:
+                    data = b"<TIMEOUT>"  # Asegúrate de que sea un bytes literal
 
-        if (s.connect_ex((target, port_num)) == 0):
+                fd.write("%d: %s\n" % (port_num, data.decode('utf-8', errors='replace')))  # Decodificando a utf-8
 
-            try:
-                data = s.recv(1024)
-            except socket.timeout:
-                data = "<TIMEOUT>"
-
-            fd.write("%d: %s\n" % (port_num, data))
-
-        s.close()
-
-    fd.close()
-
+            s.close()
 
 ###############
 # Entry Point #
