@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 #
 # Copyright (c) 2019, SafeBreach
 # All rights reserved.
@@ -38,8 +38,6 @@
 # This is a modified version of https://github.com/fusepy/fusepy/blob/master/examples/memory.py #
 #################################################################################################
 
-from __future__ import print_function, absolute_import, division
-
 import sys
 import logging
 
@@ -58,8 +56,6 @@ __version__ = "0.1.0"
 __author__ = "Itzik Kotler"
 __copyright__ = "Copyright 2019, SafeBreach"
 
-if not hasattr(__builtins__, 'bytes'):
-    bytes = str
 
 # class Memory(LoggingMixIn, Operations)
 class Memory(Operations):
@@ -114,7 +110,7 @@ class Memory(Operations):
 
     def listxattr(self, path):
         attrs = self.files[path].get('attrs', {})
-        return attrs.keys()
+        return list(attrs.keys())  # Cambiado a list() para compatibilidad con Python 3
 
     def mkdir(self, path, mode):
         self.files[path] = dict(
@@ -176,7 +172,7 @@ class Memory(Operations):
     def truncate(self, path, length, fh=None):
         # make sure extending the file fills in zero bytes
         self.data[path] = self.data[path][:length].ljust(
-            length, '\x00'.encode('ascii'))
+            length, b'\x00')  # Usamos b'\x00' para representar bytes en Python 3
         self.files[path]['st_size'] = length
 
     def unlink(self, path):
@@ -192,7 +188,7 @@ class Memory(Operations):
     def write(self, path, data, offset, fh):
         self.data[path] = (
             # make sure the data gets inserted at the right offset
-            self.data[path][:offset].ljust(offset, '\x00'.encode('ascii'))
+            self.data[path][:offset].ljust(offset, b'\x00')
             + data
             # and only overwrites the bytes that data is replacing
             + self.data[path][offset + len(data):])
