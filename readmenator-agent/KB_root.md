@@ -1,0 +1,73 @@
+# Subsystem: root
+
+## backdoros.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `IOProxy` (class, line 37) `class IOProxy`
+  - `VirtualFile` (class, line 49) `class VirtualFile(StringIO)`
+  - `ShellHandler` (class, line 69) `class ShellHandler(Protocol)`
+  - `ShellServer` (class, line 197) `class ShellServer`
+  - `main` (method, line 216) `def main()`
+  - `__init__` (method, line 38) `def __init__(self, proxy, prefix)`
+  - `write` (method, line 42) `def write(self, str)`
+  - `__init__` (method, line 50) `def __init__(self)`
+  - `write` (method, line 54) `def write(self, str)`
+  - `close` (method, line 60) `def close(self, force)`
+  - `getsize` (method, line 66) `def getsize(self)`
+  - `__init__` (method, line 70) `def __init__(self, loop)`
+  - `connection_made` (method, line 83) `def connection_made(self, transport)`
+  - `data_received` (method, line 87) `def data_received(self, data)`
+  - `process_buffer` (method, line 91) `def process_buffer(self)`
+  - `parse` (method, line 96) `def parse(self, data)`
+  - `_unknown_command` (method, line 142) `def _unknown_command(self, params)`
+  - `_do_WRITE` (method, line 145) `def _do_WRITE(self, params)`
+  - `_do_READ` (method, line 157) `def _do_READ(self, params)`
+  - `_do_DELETE` (method, line 163) `def _do_DELETE(self, params)`
+  - `_do_DIR` (method, line 170) `def _do_DIR(self, params)`
+  - `_do_HELP` (method, line 175) `def _do_HELP(self, params)`
+  - `_do_QUIT` (method, line 181) `def _do_QUIT(self, params)`
+  - `_do_REBOOT` (method, line 185) `def _do_REBOOT(self, params)`
+  - `_do_SHUTDOWN` (method, line 188) `def _do_SHUTDOWN(self, params)`
+  - `_do_UPTIME` (method, line 193) `def _do_UPTIME(self, params)`
+  - `__init__` (method, line 198) `def __init__(self, host, port)`
+  - `start_server` (method, line 202) `def start_server(self)`
+  - `create_shell_handler` (method, line 207) `def create_shell_handler(self, reader, writer)`
+
+## fuse_inmem_fs.py
+- Layer: utility
+- Doc: Copyright (c) 2019, SafeBreach All rights reserved.  Redistribution and use in source and binary forms, with or without 
+- Language: py
+- Symbols:
+  - `Memory` (class, line 61) `class Memory(Operations)`
+  - `main` (method, line 199) `def main(argc, argv)`
+  - `__init__` (method, line 64) `def __init__(self)`
+  - `chmod` (method, line 76) `def chmod(self, path, mode)`
+  - `chown` (method, line 81) `def chown(self, path, uid, gid)`
+  - `create` (method, line 85) `def create(self, path, mode)`
+  - `getattr` (method, line 97) `def getattr(self, path, fh)`
+  - `getxattr` (method, line 103) `def getxattr(self, path, name, position)`
+  - `listxattr` (method, line 111) `def listxattr(self, path)`
+  - `mkdir` (method, line 115) `def mkdir(self, path, mode)`
+  - `open` (method, line 126) `def open(self, path, flags)`
+  - `read` (method, line 130) `def read(self, path, size, offset, fh)`
+  - `readdir` (method, line 133) `def readdir(self, path, fh)`
+  - `readlink` (method, line 136) `def readlink(self, path)`
+  - `removexattr` (method, line 139) `def removexattr(self, path, name)`
+  - `rename` (method, line 147) `def rename(self, old, new)`
+  - `rmdir` (method, line 151) `def rmdir(self, path)`
+  - `setxattr` (method, line 156) `def setxattr(self, path, name, value, options, position)`
+  - `statfs` (method, line 161) `def statfs(self, path)`
+  - `symlink` (method, line 164) `def symlink(self, target, source)`
+  - `truncate` (method, line 172) `def truncate(self, path, length, fh)`
+  - `unlink` (method, line 178) `def unlink(self, path)`
+  - `utimens` (method, line 182) `def utimens(self, path, times)`
+  - `write` (method, line 188) `def write(self, path, data, offset, fh)`
+
+## getbanners.py
+- Layer: utility
+- Doc: Copyright (c) 2019, SafeBreach All rights reserved.  Redistribution and use in source and binary forms, with or without 
+- Language: py
+- Symbols:
+  - `slugify` (function, line 54) `def slugify(input)`
+  - `main` (function, line 58) `def main(argc, argv)`
