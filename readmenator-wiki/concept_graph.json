@@ -1,0 +1,467 @@
+{
+  "concepts": [
+    {
+      "name": "copyright",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "conditions",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "contributors",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "following",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "provided",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "above",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "any",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "binary",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "but",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "disclaimer",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "holder",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "implied",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "including",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "limited",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "list",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "must",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "not",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "notice",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "redistributions",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "software",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "source",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "warranties",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "without",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "write",
+      "files": [
+        "backdoros.py",
+        "fuse_inmem_fs.py"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "all",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "breach",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "code",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "consequential",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "create",
+      "files": [
+        "backdoros.py",
+        "fuse_inmem_fs.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "damages",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "derived",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "direct",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "disclaimed",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "distribution",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "documentation",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "endorse",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "event",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "exemplary",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "express",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "fitness",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "form",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "forms",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "holders",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "incidental",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "indirect",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "its",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "liable",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "materials",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "may",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "merchantability",
+      "files": [
+        "fuse_inmem_fs.py",
+        "getbanners.py"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `above` centralizes 2 files; Antithesis: `all` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `any` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `binary` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `breach` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `but` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `code` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `conditions` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `consequential` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `contributors` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `above` centralizes 2 files; Antithesis: `copyright` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}

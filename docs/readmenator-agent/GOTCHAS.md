@@ -1,0 +1,20 @@
+# Gotchas
+
+## God Nodes (high connectivity)
+
+These files have the most connections. Changes here have high blast radius.
+
+- `backdoros.py` (score: 2.90)
+- `fuse_inmem_fs.py` (score: 2.40)
+- `getbanners.py` (score: 0.20)
+
+## Hotspots (complexity + centrality)
+
+- `backdoros.py` -- complexity: 1.0, centrality: 1.0, combined: 1.0
+- `fuse_inmem_fs.py` -- complexity: 0.8, centrality: 0.5, combined: 0.6
+- `getbanners.py` -- complexity: 0.1, centrality: 0.2, combined: 0.1
+
+## Dataflow Issues (INFERRED, review each lead)
+
+- `backdoros.py:152` `_do_WRITE` [UNCHECKED_ALLOC] `output_data`: Result of allocator stored in `output_data` is never checked against NULL.
+- `getbanners.py:69` `main` [UNCHECKED_ALLOC] `s`: Result of allocator stored in `s` is never checked against NULL.
