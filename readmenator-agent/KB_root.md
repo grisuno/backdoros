@@ -35,8 +35,8 @@
   - `create_shell_handler` (method, line 207) `def create_shell_handler(self, reader, writer)`
 
 ## fuse_inmem_fs.py
-- Doc: Copyright (c) 2019, SafeBreach All rights reserved.
 - Layer: utility
+- Doc: Copyright (c) 2019, SafeBreach All rights reserved.  Redistribution and use in source and binary forms, with or without 
 - Language: py
 - Symbols:
   - `Memory` (class, line 61) `class Memory(Operations)`
@@ -65,8 +65,8 @@
   - `write` (method, line 188) `def write(self, path, data, offset, fh)`
 
 ## getbanners.py
-- Doc: Copyright (c) 2019, SafeBreach All rights reserved.
 - Layer: utility
+- Doc: Copyright (c) 2019, SafeBreach All rights reserved.  Redistribution and use in source and binary forms, with or without 
 - Language: py
 - Symbols:
   - `slugify` (function, line 54) `def slugify(input)`
